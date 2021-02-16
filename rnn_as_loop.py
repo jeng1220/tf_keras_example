@@ -15,6 +15,8 @@ from tensorflow.keras.models import Model
 # y = x1
 # for _ in range(100):
 #    y = y + 1.
+#
+# Reference: https://www.tensorflow.org/api_docs/python/tf/keras/layers/RNN
 
 class RNNCell(keras.layers.Layer):
 
