@@ -9,10 +9,10 @@ from tensorflow.keras.layers import Input, Lambda
 from tensorflow.keras.models import Model
 
 # use keras.layers.RNN as loop, following code is equal to:
-# x1 = [[2. 2. 2. 2. 2. 2. 2. 2.]
-#       [2. 2. 2. 2. 2. 2. 2. 2.]
-#       [2. 2. 2. 2. 2. 2. 2. 2.]]
-# y = x1
+# x = [[2. 2. 2. 2. 2. 2. 2. 2.]
+#      [2. 2. 2. 2. 2. 2. 2. 2.]
+#      [2. 2. 2. 2. 2. 2. 2. 2.]]
+# y = x
 # for _ in range(100):
 #    y = y + 1.
 #
