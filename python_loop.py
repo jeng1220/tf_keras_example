@@ -8,7 +8,7 @@ from tensorflow import keras
 from tensorflow.keras.layers import Input, Lambda
 from tensorflow.keras.models import Model
 
-# use keras.layers.RNN as loop, following code is equal to:
+# repeat layers with the same name, following code is equal to:
 # x = [[2. 2. 2. 2. 2. 2. 2. 2.]
 #      [2. 2. 2. 2. 2. 2. 2. 2.]
 #      [2. 2. 2. 2. 2. 2. 2. 2.]]
