@@ -16,7 +16,7 @@ from tensorflow.keras.models import Model
 # for _ in range(100):
 #    y = y + 1.
 #
-# but it will create a lot of layers
+# it actually creates a recursive workflow when Keras builds the model
 
 batch_size = 3
 time_step = 100 # interation
