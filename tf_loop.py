@@ -15,6 +15,8 @@ from tensorflow.keras.models import Model
 # y = x
 # for _ in range(100):
 #    y = y + 1.
+#
+# reference: https://www.tensorflow.org/api_docs/python/tf/while_loop
 
 batch_size = 3
 time_step = 100
